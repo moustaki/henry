@@ -1,0 +1,10 @@
+@prefix : <http://example.org/>.
+
+# Existentials in the head
+
+:joe a :Person.
+
+{?a a :Person} => {?a :has _:nose. _:nose :label "nose"}.
+
+
+

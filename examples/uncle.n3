@@ -1,0 +1,9 @@
+@prefix : <http://example.org/> .
+
+# The famous uncle example
+
+:yves :parent :fabienne.
+:fabienne :brother :olivier.
+
+{?c :parent ?f. ?f :brother ?u} => {?c :uncle ?u}.
+

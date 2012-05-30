@@ -1,0 +1,18 @@
+@prefix : <http://www.test.com/>.
+@prefix t: <http://variable.com/#>.
+
+# Adaptated from Sean B. Palmer's family example
+
+:mary :parent :sally, :bob, :frank, :maryjr.
+:sally :parent :fran, :marshall.
+:paul :parent :sally.
+:bob :parent :jane.
+:maryjr :parent :maryIII.
+:merv :parent :bob.
+:jane :parent :janeII.
+
+
+{?p :parent ?q.} => {?q :child ?p}.
+{?x :parent ?y. ?y :parent ?z.} => {?x :gParent ?z. ?z :gChild ?x}.
+{?a :parent ?b. ?b :gParent ?c.} => {?a :ggParent ?c.}.    
+
