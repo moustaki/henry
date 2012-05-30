@@ -1,6 +1,11 @@
 HENRY (N3 parser and reasoner for SWI-Prolog)
 ------------------------------------------------
 
+Warning: This is code I've written as part of my PhD thesis
+and haven't touched since 2007. The only changes I made were to make
+it work with recent SWI-Prolog (> 6.0.0). This was imported
+from http://code.google.com/p/km-rdf/.
+
 First: 
 
  * Where does this name come from?
