@@ -1,9 +1,10 @@
 @prefix : <http://example.org/>.
 
-# "Nested" rules (this might not be the
-# right word)
+# If someone is in a parent relationship,
+# he is a parent. If someone is a parent, 
+# he has a child.
 
-:yves :parent :jm.
+:bob :parent :alice.
 
 {?a :parent ?p} => {?p a :Parent}.
 {?a a :Parent} => {?a :has _:child}.
