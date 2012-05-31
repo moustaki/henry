@@ -55,5 +55,7 @@ Use:
 
    ?- entailment:rdf(Subject,Predicate,Object).
 
- * This same module can be used as an entailment module in ClioPatria.
+ * This same module can be used as an entailment module in ClioPatria,
+   which is what the 'henry.pl' script does. Giving access to the
+   N3 entailments through SPARQL.
 
