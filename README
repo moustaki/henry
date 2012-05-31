@@ -55,4 +55,5 @@ Use:
 
    ?- entailment:rdf(Subject,Predicate,Object).
 
+ * This same module can be used as an entailment module in ClioPatria.
 
