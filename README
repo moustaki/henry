@@ -32,6 +32,10 @@ Use:
 
    $ cwm $1 --think --rdf --data
 
+   Example use:
+
+   $ ./swicwm.pl examples/family.n3
+
  * You can create a SPARQL end-point on top of N3 documents by using the 
    henry.pl script. Make you sure you installed SeRQL, as described above.
 
